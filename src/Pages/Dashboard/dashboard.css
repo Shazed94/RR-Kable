@@ -142,9 +142,9 @@
     transition: all .3s ease;
 }
 
-.card:hover {
+/* .card:hover {
     transform: scale(1.1);
-}
+} */
 
 .card .widget {
     display: flex;

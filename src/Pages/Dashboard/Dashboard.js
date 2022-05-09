@@ -44,6 +44,8 @@ const Dashboard = () => {
   const [sidebar, setSidebar] = useState(true);
   const showSidebar = () => setSidebar(!sidebar);
 
+  const [category, setCategory] = useState(false);
+
   return (
     <>
       <div className="row m-0">
@@ -72,6 +74,40 @@ const Dashboard = () => {
                   />
                   <span className="menu-title"> Form</span>
                 </Link>
+              </li>
+              {/* CATEGORY */}
+              <li
+                className="sidebar-menu-item"
+                onClick={() => {
+                  setCategory(!category);
+                }}
+              >
+                <button className="nav-link d-flex align-items-center w-100">
+                  <FontAwesomeIcon
+                    icon={faBars}
+                    className="text-white fa-icon"
+                  />
+                  <span className="menu-title">Category</span>{" "}
+                </button>
+                {category && (
+                  <div>
+                    <Link
+                      to="add-category"
+                      className="link text-decoration-none"
+                    >
+                      <p className="d-flex align-items-center mb-0">
+                        {" "}
+                        <span>
+                          <FontAwesomeIcon
+                            icon={faMinus}
+                            className="text-white fa-icon"
+                          />
+                        </span>
+                        Add Category
+                      </p>
+                    </Link>
+                  </div>
+                )}
               </li>
             </ul>
           </div>
