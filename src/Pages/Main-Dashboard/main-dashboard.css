@@ -1,0 +1,195 @@
+/* .sidebar-left {
+    display: none;
+    box-shadow: -8px 12px 18px 0 #b3bcd0;
+    height: 100%;
+    z-index: 999;
+    background: linear-gradient(315deg, #e9bcb7 0%, #53746e 74%);
+    overflow-x: hidden;
+    transition: all 0.5s;
+}
+
+.sidebar-left.active {
+    display: block;
+    transition: all 0.3s;
+}
+
+.sidebar-left .logo {
+    width: 120px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    margin: 10px auto;
+}
+
+.sidebar-left .sidebar__menu-wrapper {
+    overflow-y: scroll;
+    height: 100vh;
+}
+
+.sidebar-left .sidebar__menu-wrapper .sidebar__menu {
+    margin-bottom: 100px;
+}
+
+.sidebar-left .sidebar__menu-wrapper .sidebar__menu .sidebar-menu-item {
+    margin-top: 5px;
+}
+
+.sidebar-left .sidebar__menu-wrapper .sidebar__menu .sidebar-menu-item a {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    padding: 12px 25px;
+    transition: 0.3s;
+}
+
+.sidebar-left .sidebar__menu-wrapper .sidebar__menu .sidebar-menu-item a:hover {
+    background-color: rgba(205, 208, 208, 0.172);
+    border-top-right-radius: 25px;
+    border-bottom-right-radius: 25px;
+}
+
+.sidebar-left .sidebar__menu-wrapper .sidebar__menu .sidebar-menu-item .fa-icon {
+    margin-right: 15px;
+    color: #f3f5f7;
+    font-size: 23px;
+    cursor: pointer;
+}
+
+.sidebar-left .sidebar__menu-wrapper .sidebar__menu .sidebar-menu-item .menu-title {
+    color: #ffffff;
+    font-size: 13px;
+    font-weight: 600;
+    line-height: 30px;
+}
+
+.sidebar-left li p {
+    color: #fff;
+    font-size: 13px;
+    font-weight: 600;
+    margin-left: 25px;
+    padding-left: 25px;
+    cursor: pointer;
+} 
+
+ .sidebar-right {
+    min-height: 100vh;
+}
+
+.sidebar-right .navbar-wrapper {
+    position: relative;
+    background: #53746e;
+    padding: 21px 30px;
+    display: flex;
+    flex-wrap: wrap;
+    transition: all 0.5s cubic-bezier(0.4, -0.25, 0.25, 1.1);
+}
+
+.sidebar-right .navbar-right li {
+    list-style: none;
+}
+
+.sidebar-right .navbar-right .fullscreen-btn {
+    text-shadow: 1px 2px 5px rgba(0, 0, 0, 0.15);
+    font-size: 1.5rem;
+}
+
+.sidebar-right .navbar-right .fa-icon {
+    margin-right: 15px;
+    color: #f3f5f7;
+    font-size: 23px;
+}
+
+.sidebar-right .body-wrapper {
+    padding: 30px;
+    transition: all 0.5s cubic-bezier(0.4, -0.25, 0.25, 1.1);
+    overflow-x: hidden;
+}
+
+.sidebar-right .body-wrapper .card-effect {
+    background: #eac7c3;
+    color: #53746e;
+    padding: 17px 8px;
+    border-radius: 3px;
+}
+
+.sidebar-right .body-wrapper .card-effect .dashboard {
+    color: #53746E;
+    background-color: rgb(234, 199, 195);
+    font-size: 1.3rem;
+}
+
+.sidebar-right .body-wrapper .card-effect .dashboard b {
+    font-weight: bolder;
+}
+
+.sidebar-right .body-wrapper .card {
+    display: flex;
+    flex-direction: column;
+    background-color: #fff;
+    border: 1px solid rgba(0, 0, 0, 0.125);
+    border-radius: 0.25rem;
+    border: none;
+    box-shadow: 0 0.75rem 1.5rem rgba(18, 38, 63, 0.03);
+    transition: all 0.3s ease;
+}
+
+.sidebar-right .body-wrapper .card:hover {
+    transform: scale(1.1);
+}
+
+.sidebar-right .body-wrapper .card .widget {
+    display: flex;
+    align-items: center;
+    transition: all 0.3s;
+    padding: 30px 26px;
+    border-radius: 13px;
+    border-bottom: 9px solid #53746e;
+}
+
+.sidebar-right .body-wrapper .card .widget .widget-icon {
+    width: 70px;
+    height: 70px;
+    display: flex;
+    align-self: flex-start;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.sidebar-right .body-wrapper .card .widget .widget-icon .w-icon {
+    color: #53746e;
+    font-size: 64px;
+}
+
+.sidebar-right .body-wrapper .card .widget .widget-content {
+    width: 100%;
+    padding-left: 15px;
+}
+
+.sidebar-right .body-wrapper .card .widget .widget-content .text {
+    color: #6c757d !important;
+}
+
+.sidebar-right .body-wrapper .card .widget .widget-content .text-dark {
+    color: #53746e !important;
+    font-weight: 700;
+}
+
+.sidebar-right .body-wrapper .card .widget .widget-content .btn {
+    background: #e7c6c2;
+    color: #53746e;
+    font-weight: 600;
+    margin-top: 6px;
+    border: 1px solid transparent;
+    padding: 0.375rem 0.75rem;
+    font-size: 1rem;
+    border-radius: 0.25rem;
+}
+
+.sidebar-right .body-wrapper .card .widget .widget-content .btn:focus {
+    box-shadow: none;
+}
+
+.sidebar-right .body-wrapper .card .widget .widget-content .btn:hover {
+    color: black;
+} */

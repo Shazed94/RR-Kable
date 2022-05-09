@@ -1,0 +1,122 @@
+.admin-container {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px 30px;
+}
+
+
+.logo {
+    max-width: 100%;
+    height: auto;
+}
+
+h3 {
+    font-size: 2.5rem;
+    letter-spacing: 3px;
+    color: #000;
+}
+
+.admin-form-wrapper {
+    width: 500px;
+    min-height: 70vh;
+    padding: 50px 30px;
+    text-align: center;
+    position: relative;
+    border-radius: 10px;
+    background-image: linear-gradient(315deg, #e9bcb7 0%, #29524a 74%);
+    color: #fff;
+    box-shadow: rgba(0, 0, 0, 0.07) 0px 1px 2px, rgba(0, 0, 0, 0.07) 0px 2px 4px, rgba(0, 0, 0, 0.07) 0px 4px 8px, rgba(0, 0, 0, 0.07) 0px 8px 16px, rgba(0, 0, 0, 0.07) 0px 16px 32px, rgba(0, 0, 0, 0.07) 0px 32px 64px;
+}
+
+p {
+    font-size: 0.875rem;
+    line-height: 1.7;
+    font-weight: 400;
+}
+
+.custom-form-control {
+    margin-bottom: 16px;
+    border: none;
+    position: relative;
+    background: transparent;
+}
+
+.custom-form-control label {
+    color: #fff;
+    display: block;
+    font-weight: 500;
+    font-size: 0.8125rem;
+    margin-bottom: 8px;
+    text-align: left;
+}
+
+.custom-form-control input {
+    border: 1px solid #f0f0f0;
+    background: transparent;
+    color: black;
+    display: block;
+    width: 100%;
+    padding: 10px;
+    font-size: 15px;
+}
+
+.custom-form-control input::placeholder {
+    color: #ced4da;
+}
+
+.custom-form-control input:focus {
+    outline: 0;
+    box-shadow: none;
+    background-color: #fff;
+    border-color: #7367f0;
+}
+
+.custom-form-control.success input {
+    border-color: var(--success-color);
+}
+
+.custom-form-control.error input {
+    border-color: var(--error-color);
+}
+
+.custom-form-control small {
+    color: var(--error-color);
+}
+
+.custom-form-control.success input {
+    border-color: var(--success-color)
+}
+
+.custom-form-control.error input {
+    border-color: var(--error-color)
+}
+
+.form button:hover {
+    background-color: #0660aa;
+}
+
+.custom-form-control small {
+    color: var(--error-color);
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    visibility: hidden;
+}
+
+.custom-form-control.error small {
+    visibility: visible;
+}
+
+.form button {
+    cursor: pointer;
+    background-color: #1575c4;
+    color: #ffffff;
+    border: none;
+    border-radius: 5px;
+    width: 100%;
+    margin: 10px 0;
+    padding: 10px;
+    font-size: 18px;
+}

@@ -1,24 +1,25 @@
-import logo from './logo.svg';
-import './App.css';
+import React, { useState } from "react";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+
+import "./App.css";
+import Admin from "./Components/Admin/Admin";
+import Dashboard from "./Pages/Dashboard/Dashboard";
+import Form from "./Pages/Form/Form";
+import MainDashboard from "./Pages/Main-Dashboard/MainDashboard";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+      <BrowserRouter>
+        <Routes>
+          <Route path="/" element={<Admin />} />
+          <Route path="dashboard" element={<Dashboard />}>
+            <Route path="dashboard1" element={<MainDashboard />} />
+            <Route path="form" element={<Form />} />
+          </Route>
+        </Routes>
+      </BrowserRouter>
+    </>
   );
 }
 
