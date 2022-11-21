@@ -1,0 +1,15 @@
+.policy li::before {
+  content: "\2022";
+  color: #414042;
+  font-weight: bold;
+  display: inline-block;
+  width: 1em;
+  margin-left: -1em;
+}
+
+
+/* Manufacturing  Facilities */
+
+.certificate img{
+  border: 3px solid #F3A26B;
+}

@@ -1,0 +1,201 @@
+/* Google Font Import - Poppins */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+
+:root {
+    /* ===== Colors ===== */
+    --body-color: #2456e0;
+    --sidebar-color: #FFF;
+    --primary-color: #695CFE;
+    --primary-color-light: #F6F5FF;
+    --toggle-color: #DDD;
+    --text-color: #707070;
+
+    /* ====== Transition ====== */
+    --tran-03: all 0.2s ease;
+    --tran-03: all 0.3s ease;
+    --tran-04: all 0.3s ease;
+    --tran-05: all 0.3s ease;
+}
+
+
+/* ===== Reusable code - Here ===== */
+.sidebar li {
+    list-style: none;
+}
+
+.sidebar .icon {
+    min-width: 60px;
+    color: white;
+    font-size: 20px;
+}
+
+.sidebar .text {
+    color: white;
+}
+
+.sidebar .text {
+    font-size: 17px;
+    font-weight: 500;
+    white-space: nowrap;
+    opacity: 1;
+}
+
+.sidebar.close .text {
+    opacity: 0;
+}
+
+/* =========================== */
+
+.sidebar header {
+    position: relative;
+}
+
+
+
+.sidebar header .image {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.sidebar header .image img {
+    width: 40px;
+    border-radius: 6px;
+}
+
+.sidebar header .toggle {
+    position: absolute;
+    top: 50%;
+    right: -10px;
+    transform: translateY(-50%) rotate(180deg);
+    height: 25px;
+    width: 25px;
+    background-color: var(--primary-color);
+    color: var(--sidebar-color);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 22px;
+    cursor: pointer;
+    transition: var(--tran-05);
+}
+
+body.dark .sidebar header .toggle {
+    color: var(--text-color);
+}
+
+.sidebar.close .toggle {
+    transform: translateY(-50%) rotate(0deg);
+}
+
+
+
+.sidebar li a {
+    list-style: none;
+    height: 100%;
+    background-color: transparent;
+    display: flex;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+    border-radius: 6px;
+    text-decoration: none;
+    transition: var(--tran-03);
+    padding: 6px 0px;
+}
+
+.sidebar li:hover {
+    background-color: var(--primary-color);
+    border-radius: 6px;
+}
+
+.sidebar .menu-bar {
+    /* height: calc(100% - 55px); */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    overflow-y: scroll;
+}
+
+.menu-bar::-webkit-scrollbar {
+    display: none;
+}
+
+
+.admin .rightbar {
+    max-height: 100vh;
+    overflow-y: scroll;
+    width: 100%;
+    background-color: white;
+    transition: var(--tran-05);
+    z-index: 3;
+}
+
+.sidebar {
+    width: 250px;
+    background: #3a3333;
+    transition: var(--tran-05);
+    z-index: 5;
+    height: 100vh;
+}
+
+.sidebar.close~.rightbar {
+    width: calc(100% - 88px);
+
+}
+
+/* ===== Sidebar ===== */
+
+.sidebar.close {
+    width: 88px;
+}
+
+
+.menu .dropdown-menu.show {
+    inset: 16px auto auto 11px !important;
+    background: transparent !important;
+    border: none !important;
+}
+
+.menu .nav-item.dropdown a {
+    color: white !important;
+}
+
+.menu .dropdown-menu.show a {
+    color: white !important;
+    padding-left: 10px;
+}
+
+.menu .dropdown-menu.show a:hover {
+    background-color: var(--primary-color);
+    border-radius: 6px;
+}
+
+/* .dropdown .dropdown-menu.show {
+    margin-top: -50px !important;
+    background: red !important;
+}
+
+.dropdown-menu {
+    position: relative !important;
+
+} */
+
+.product_dropdown {
+    cursor: pointer;
+    color: white !important;
+}
+
+.product_dropdown_item p {
+    padding-left: 30% !important;
+}
+
+.product_dropdown_item .collapse.show p:hover {
+    background: #695CFE !important;
+}
+
+.rotate_icon {
+    transform: rotate(180deg);
+}

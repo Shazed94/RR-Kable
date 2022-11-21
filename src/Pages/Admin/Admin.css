@@ -1,0 +1,240 @@
+/* ================= Admin section CSS ====================== */
+
+
+/* Jodit Status Bar */
+.jodit-status-bar {
+    visibility: hidden;
+}
+
+.jodit-add-new-line:after,
+.jodit-add-new-line span {
+    display: none !important;
+}
+
+.jodit-wysiwyg ul li {
+    list-style: initial !important;
+}
+
+.jodit-wysiwyg ul {
+    list-style: initial !important;
+}
+
+/* Header */
+.navbar-wrapper {
+    display: flex;
+    background: #53746e;
+    padding: 21px 30px;
+    flex-wrap: wrap;
+    transition: all 0.5s cubic-bezier(0.4, -0.25, 0.25, 1.1);
+}
+
+.fullscreen-btn svg {
+    cursor: pointer;
+}
+
+.fa-icon {
+    margin-right: 15px;
+    color: #f3f5f7;
+    font-size: 23px;
+}
+
+
+/* middle section */
+
+.main__container {
+    /* max-height: 100vh;
+    overflow-y: scroll; */
+}
+
+.content-wrapper {
+    /* padding: 30px; */
+    min-height: 100%;
+
+}
+
+.content-wrapper .breadcrumb {
+    margin-top: 15px;
+    padding: 12px 16px;
+    background-color: rgb(214, 216, 218);
+    border-radius: 4px;
+}
+
+.content-wrapper .breadcrumb .breadcrumb-item a {
+    text-decoration: none;
+    color: #53746e;
+    font-size: 0.875rem;
+    font-weight: 700;
+}
+
+.content-wrapper .breadcrumb .breadcrumb-item .before::before {
+    content: ">" !important;
+    margin: 0px 15px;
+    color: #000;
+}
+
+.content-wrapper .card {
+    position: relative;
+    border: none;
+    box-shadow: 0 0.75rem 1.5rem rgba(18, 38, 63, 0.03);
+    border-radius: 10px;
+}
+
+.content-wrapper .card .card-body {
+    flex: 1 1 auto;
+    padding: 1rem;
+}
+
+.card .card-body .top-border {
+    background: rgb(214, 179, 174);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 30%;
+    height: 35px;
+    clip-path: polygon(0 0, 100% 0, 93% 44%, 0 44%);
+}
+
+.content-wrapper .card .card-body .card-header {
+    background-color: transparent;
+    border-bottom: 1px solid rgba(140, 140, 140, 0.125);
+}
+
+.content-wrapper .card .card-body .card-title {
+    color: #53746e;
+    font-weight: 700;
+    font-size: 22px;
+}
+
+.content-wrapper .card .card-body .image-file {
+    font-size: 14px;
+}
+
+.content-wrapper .card .card-body .btn-submit {
+    width: 20%;
+    padding: 8px 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    background-color: #53746e;
+    color: white;
+    font-weight: 600;
+    letter-spacing: 2px;
+    transition: all 200ms;
+}
+
+.content-wrapper .card .card-body .btn-submit:hover {
+    background-color: #275149;
+}
+
+
+.content-wrapper .card .form-control:focus {
+    border-color: #7367f0;
+    box-shadow: 0 3px 9px rgba(50, 50, 9, 0.05), 3px 4px 8px rgba(115, 103, 240, 0.1);
+}
+
+.content-wrapper .card .label {
+    margin-bottom: 8px;
+    font-size: 0.75rem;
+    color: #53746e;
+}
+
+.card-body .form-select:focus {
+    box-shadow: none;
+    border-color: #7367f0;
+}
+
+/* Table styling */
+
+.table_wrapper {
+    /* max-height: 65vh;
+    overflow-y: scroll; */
+    scroll-behavior: smooth;
+}
+
+
+tbody,
+td,
+tfoot,
+th,
+thead,
+tr {
+    border-color: inherit;
+    border-style: solid;
+    border-width: 0;
+    vertical-align: middle;
+
+}
+
+.btn_danger {
+    background-color: rgb(173, 0, 0) !important;
+}
+
+.btn_submit {
+    padding: 8px 14px;
+
+}
+
+.login_btn {
+    border-radius: 0 !important;
+    border: none !important;
+    background-color: #000 !important;
+}
+
+.bg_grey {
+    background-color: #bfbdbd !important
+}
+
+.toast_msg {
+    margin-top: 250px;
+    color: #fff;
+}
+
+.eye_icon {
+    cursor: pointer;
+    position: absolute;
+    right: 4%;
+    bottom: 35%;
+}
+
+.color_circle {
+    padding: 4px;
+    height: 15px;
+    width: 15px;
+    border-radius: 50%;
+
+}
+
+/* Footer */
+.copyright {
+    font-weight: normal;
+    text-transform: capitalize;
+    font-size: 15px;
+    /* text-align: center; */
+    background: rgb(36, 36, 36);
+    height: 63px;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+    z-index: 4;
+}
+
+
+
+/* Media Query */
+
+
+@media screen and (max-width: 768px) {
+    .card .card-body .top-border {
+        width: 245px;
+    }
+
+    .content-wrapper {
+        padding: 15px;
+
+    }
+
+    .copyright {
+        font-size: 10px;
+    }
+}

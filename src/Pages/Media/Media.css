@@ -1,0 +1,53 @@
+/* Download Page */
+
+.download_form input {
+
+    border: 0 !important;
+    box-shadow: none !important;
+    border-radius: 5px !important;
+    background-color: #e4eaef !important;
+
+}
+
+.download_form textarea {
+
+    border: 0 !important;
+    box-shadow: none !important;
+    border-radius: 5px !important;
+    background-color: #e4eaef !important;
+
+}
+
+.download_form input::-webkit-input-placeholder {
+    font-size: 12px !important;
+    color: rgb(151, 147, 147) !important;
+}
+
+.download_form input:-moz-placeholder {
+    font-size: 12px !important;
+    color: rgb(151, 147, 147) !important;
+}
+
+
+/* Events Page */
+
+.event_content_after:not(:last-child):after {
+    content: "";
+    display: block;
+    height: 1.5px;
+    background: #ED1D24;
+    width: 100%;
+    margin: 14px 12px 0px 12px;
+}
+
+.event_desc {
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+
+}
+
+.text-truncate.f_bold.transition_ease_io_3:hover {
+    color: #ED1D24 ;
+}

@@ -1,0 +1,183 @@
+.kabel_calculator .nav-tabs .nav-item.show .nav-link,
+.kabel_calculator .nav-tabs .nav-link.active {
+    color: white;
+    background-color: #ed2027;
+    border: 1px solid #ed2027;
+    /* border-radius: 0; */
+}
+
+.kabel_calculator .nav-tabs {
+    border: none;
+}
+
+.kabel_calculator .nav-tabs .nav-link {
+    font-size: 12px;
+    font-weight: 700;
+    margin-bottom: 0;
+    color: #6e6e6e;
+    background: #E5E5E5;
+}
+
+.kabel_calculator .tab_border {
+    border: 1px solid #ed2027;
+}
+
+@media only screen and (max-width:575px) {
+
+    .kabel_calculator .nav-justified .nav-item,
+    .kabel_calculator .nav-justified>.nav-link {
+        flex-basis: unset;
+        flex-grow: 1;
+    }
+}
+
+.sorting_set {
+    background: #E5E5E5;
+}
+
+.sorting_set.top {
+    background: #787878;
+    color: white;
+}
+
+.sorting_set.top p {
+    color: white;
+}
+
+.sorting_set ul li select {
+    width: 140px;
+    height: 34px;
+    border-radius: 0px;
+}
+
+.sorting_set .btn_clear {
+    float: right;
+    background: white;
+    padding: 7px 10px;
+    font-size: 11px;
+    color: #ed2027;
+    border-radius: 0px;
+    border: none;
+    font-weight: 700;
+}
+
+.sorting_set .box {
+    text-align: center;
+    padding: 0 4px;
+
+}
+
+.sorting_set .box_content {
+    background: #fff;
+    color: #808080;
+    border-radius: 4px;
+    padding: 6px;
+
+}
+
+.sorting_set .box:nth-child(even) .box_content {
+    color: white;
+    background: #ed2027;
+}
+.sorting_set .box .box_content p{
+    font-size: 15px;
+    font-weight: 700;
+}
+
+.kabel_calculator h4 {
+    color: #858383;
+    font-size: 16px;
+    font-weight: 900;
+}
+
+.kabel_calculator h5 {
+    /* font-size: 15px;
+    color: #787878; */
+    font-size: 14px;
+    color: #858383;
+    /* font-weight: 700; */
+}
+
+.kabel_calculator .min_height {
+    min-height: 40px;
+}
+
+.kabel_calculator p {
+    font-size: 13px;
+    margin-top: 3px;
+    
+}
+
+.kabel_calculator .box_footer p {
+    font-size: 14px;
+    color: #858383;
+}
+
+.kabel_calculator .notice h3{
+    color: #ed2027;
+    font-weight: 700;
+    font-size: 22px;
+}
+.kabel_calculator .notice p{
+    color: #787878;
+    font-size: 17px;
+}
+
+
+.kabel_calculator .form-select {
+    /* IE and EDGE */
+    -ms-overflow-style: none;
+    /* Firefox */
+    scrollbar-width: none;
+    background-color: #e5e5e5;
+    border-radius: 0;
+}
+
+.kabel_calculator .form-select::-webkit-scrollbar {
+    width: 0 !important;
+    display: none;
+}
+
+.kabel_calculator .form-select {
+    border: none;
+    outline: 0;
+    box-shadow: none;
+}
+
+.kabel_calculator .form-select:focus {
+    border: none;
+    outline: 0;
+    box-shadow: none;
+}
+
+.notice ul li:nth-child(2):before {
+    color: gray;
+}
+
+.notice ul li:before {
+    content: "\2022";
+    color: red;
+    font-weight: bold;
+    display: inline-block;
+    width: 15px;
+    /* margin-left: -1em; */
+    font-size: 25px;
+    position: relative;
+    top: 3px;
+}
+
+.border_bottom_white_1px {
+    border-bottom: 1px solid white;
+}
+.border_top_white_1px {
+    border-top: 1px solid white;
+}
+.border_bottom_red_1px {
+    border-bottom: 2px solid #ed2027;
+}
+.kabel_calculator .tab_2 h5{
+    min-height:75px;
+    display: flex;
+    align-items: end;
+    justify-content: center;
+}
